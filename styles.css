@@ -168,7 +168,7 @@ li button:hover {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .tasks {
@@ -200,5 +200,13 @@ li button:hover {
   input[type="text"] {
     font-size: 0.9rem;
     padding: 8px;
+    border: none;
+    background: transparent;
+    text-align: center;
+    outline: none;
+  }
+
+  #hide {
+    display: none;
   }
 }
